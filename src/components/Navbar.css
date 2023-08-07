@@ -1,0 +1,37 @@
+.navbar {
+  border-radius: 15px;
+}
+.light {
+  background-color: blue;
+}
+.light li a {
+  color: black;
+}
+.dark {
+  background-color: rgb(0, 0, 0);
+}
+.dark li a {
+  color: white;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 16px 20px;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar .btn {
+  background-color: white;
+  color: black;
+  float: right;
+  margin: 16px 20px;
+  border-radius: 8px;
+  border: none;
+  width: 100px;
+}
